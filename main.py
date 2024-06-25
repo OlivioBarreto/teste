@@ -2,10 +2,13 @@ from time import sleep
 
 print("Faça o seu voto consciente!")
 
-jair = 22
-olivio = 17
-branco = 999
-nulo = 0
+jair = olivio = branco = nulo = 0
+
+print('''
+jair  [22]
+olivio [17]
+branco [999]
+nulo [0]''')
 
 while True:
     # pergunta ao usuario qual candidato ele irá votar
@@ -29,3 +32,7 @@ while True:
     else:
         print("Loading...")
         sleep(2)
+print(f"{jair} Pessoas votarem no candidato jair!")
+print(f"{olivio} Pessoas votaram no candidato olivio!")
+print(f"{branco} Pessoas votaram em branco!")
+print(f"{nulo} Pessoas votaram nulo!")
